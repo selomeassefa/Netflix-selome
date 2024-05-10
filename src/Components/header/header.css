@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.OuterWraper{
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.OuterWraper .LeftSide ul,.OuterWraper .rightSide ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 10px 0;
+}
+.OuterWraper .LeftSide ul{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.OuterWraper .LeftSide ul li img{
+display: flex;
+align-items: center;
+padding-bottom: 15px;
+}
+
